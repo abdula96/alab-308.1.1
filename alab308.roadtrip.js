@@ -25,3 +25,8 @@ function calculateTripDetails(speed) {
     console.log(`Is your budget sufficient? ${isBudgetSufficient ? "Yes" : "No"}.`);
     console.log(`The trip will take approximately ${travelTime.toFixed(2)} hours.\n`);
 }
+
+// Calculate details for each speed
+calculateTripDetails("55mph");
+calculateTripDetails("60mph");
+calculateTripDetails("75mph");
