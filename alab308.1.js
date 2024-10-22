@@ -56,3 +56,7 @@ let subtractionResult = n2 - n1; // Subtract first number from second
 let multiplicationResult = subtractionResult * n3; // Multiply result by third number
 let remainderResult = multiplicationResult % n4; // Find the remainder when divided by fourth number
 console.log("Remainder of the arithmetic chain:", remainderResult);
+
+// Refactor to avoid NOT operator
+let isOver25 = [n1, n2, n3, n4].some(n => n > 25); // Check if any number is over 25
+console.log("Is any number over 25?", isOver25);
