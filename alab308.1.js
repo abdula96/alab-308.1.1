@@ -50,3 +50,9 @@ console.log("All numbers divisible by 5:", allDivisibleBy5);
 // Check if the first number is larger than the last
 let isFirstLargerThanLast = n1 > n4;
 console.log("Is the first number larger than the last?", isFirstLargerThanLast);
+
+// Perform arithmetic operations
+let subtractionResult = n2 - n1; // Subtract first number from second
+let multiplicationResult = subtractionResult * n3; // Multiply result by third number
+let remainderResult = multiplicationResult % n4; // Find the remainder when divided by fourth number
+console.log("Remainder of the arithmetic chain:", remainderResult);
