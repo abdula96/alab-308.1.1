@@ -4,16 +4,14 @@ const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 
-// Check one: add up to 50
-// This is a fairly simple operation using
-// arithmetic operators and a comparison.
-const isSum50 = (n1 + n2 + n3 + n4) == 50;
+// Function to verify the criteria
+function verifyNumbers(n1, n2, n3, n4) {
+  // Check if the numbers add up to 50
+  let sum = n1 + n2 + n3 + n4 === 50;
 
-// Check two: at least two odd numbers
-// Here, we use modulus to check if something is odd.
-// Since % 2 is 0 if even and 1 if odd, we can use
-// arithmetic to count the total number of odd numbers.
-const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
+// Check if at least two numbers are odd
+    let oddCount = [n1, n2, n3, n4].filter(n => n % 2 !== 0).length;
+    let atLeastTwoOdd = oddCount >= 2;
 
 // Check three: no number larger than 25
 // This time, we use the OR operator to check
