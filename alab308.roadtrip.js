@@ -30,3 +30,22 @@ function calculateTripDetails(speed) {
 calculateTripDetails("55mph");
 calculateTripDetails("60mph");
 calculateTripDetails("75mph");
+
+/*
+For driving at 55mph:
+You will need 50.00 gallons of fuel for the trip.
+The total fuel cost will be $150.00.
+Is your budget sufficient? Yes.
+The trip will take approximately 27.27 hours.
+
+For driving at 60mph:
+You will need 53.57 gallons of fuel for the trip.
+The total fuel cost will be $160.71.
+Is your budget sufficient? Yes.
+The trip will take approximately 25.00 hours.
+
+For driving at 75mph:
+You will need 65.22 gallons of fuel for the trip.
+The total fuel cost will be $196.67.
+Is your budget sufficient? No.
+The trip will take approximately 20.00 hours.*/
