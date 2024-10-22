@@ -1,7 +1,5 @@
 // mathProblems.js
 
-// Part 1: Math Problems
-
 // Initialize numbers
 let n1 = 15; // First number
 let n2 = 10; // Second number
