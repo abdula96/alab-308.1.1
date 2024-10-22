@@ -46,3 +46,7 @@ console.log("Numbers verified:", verifyNumbers(n1, n2, n3, n4)); // Should retur
 // Check if all numbers are divisible by 5
 let allDivisibleBy5 = [n1, n2, n3, n4].every(n => n % 5 === 0);
 console.log("All numbers divisible by 5:", allDivisibleBy5);
+
+// Check if the first number is larger than the last
+let isFirstLargerThanLast = n1 > n4;
+console.log("Is the first number larger than the last?", isFirstLargerThanLast);
